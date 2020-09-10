@@ -1,0 +1,263 @@
+/* body{
+
+} */
+
+* {
+    box-sizing: border-box;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+  
+    padding: 3rem;
+    justify-content: space-between;
+
+}
+.cardOne{
+    width: 20vw;
+}
+.cardTwo{
+    height: 500px;
+    width: 70vw;
+}
+
+.avatar{
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.edit{
+    background-color: #fafbfc;
+    width: 100%;
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: #24292e;
+    background-color: #fafbfc;
+    border-color: rgba(27, 31, 35, .15);
+    box-shadow: 0 1px 0 rgba(27, 31, 35, .04), inset 0 1px 0 hsla(0, 0%, 100%, .25);
+    margin-bottom: 1rem;
+}
+.follows a{
+    text-decoration: none;
+    color: #586069
+}
+
+.follows a:hover{
+    color: #0366d6;
+}
+
+.location{
+    color: #586069;
+    margin-top: 1rem;
+} 
+.userName, a{
+    color: #586069;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+.userName a:hover{
+    color: #0366d6;
+    text-decoration: underline;
+}
+
+
+.header {
+    padding: 1rem 0rem;
+}
+
+.headerIcon a {
+    color: #1b1f23;
+    padding-right: 1rem;
+}
+
+.headerIcon a:hover {
+    color: #1b1f23;
+    border-bottom: 2px solid #e1e4e8;
+}
+
+.repoNum {
+    background-color: rgba(209, 213, 218, .5);
+    border: 1px solid transparent;
+    border-radius: 2em;
+    min-width: 50px;
+    padding: 5px 6px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #24292e;
+}
+
+.find{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.findInput{
+    width: 35vw;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-right: 1rem;
+    outline: none;
+    border: 1px solid rgb(118, 118, 118);
+}
+
+#select {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    outline: none;
+    margin-right: 0.5rem;
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.new {
+    background-color: #2ea44f;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+    border: 1px solid #2ea44f;
+    padding: 7px 
+}
+
+.repo{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+   
+    margin-top: 1rem;
+
+   
+}
+
+.starWrapper{
+    padding-top: 2rem;
+    
+}
+
+
+.javascript {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #f1e05a;
+}
+
+.css {
+    background-color: #563d7c;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.html {
+    background-color: #e34c26;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.starBtn{
+    
+ padding: 0.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    /* body {
+      
+    } */
+    .cards{
+        display: flex;
+        flex-direction: column;
+        padding: 4rem;
+    }
+    .cardOne{
+        margin-bottom: 3rem;
+        width: 100vw;
+    }
+    .cardTwo{
+        background: white;
+        width: 100vw;
+    }
+
+    .avatar {
+        align-content: center;
+        text-align: center;
+        width: 50%;
+     
+        margin-top: 1rem;
+    }
+    .avatarDetails {
+        display: flex;
+justify-content: flex-start;
+    
+    }
+
+    .avatarName{
+        padding-left: none
+    }
+
+    .location, .userName, .highlights, .organisation {
+        display: none;
+    }
+    
+  }
+  
+
+p, span {
+    color: #586069
+}
+
+small {
+    color: #586069;
+    padding-top: 1rem;
+    margin-top: 5rem;
+    padding-right: 2rem;
+}
+
+small a {
+    color: #586069;
+}
